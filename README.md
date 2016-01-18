@@ -2,13 +2,13 @@
 
 ActiveMQ is an implementation of JMS and supports two models. One is Point-to-point model and the other is Publish/subscribe model.
 
-# Point-to-Point messaging model
+# Point-to-Point model
 
 In ActiveMQ, we use Queue to implement the model.
 
 In point-to-point messaging system, messages are routed to an single consumer mantaining a queue of "incoming" messages. If there are no consumers available at the time when the message is sent,  the message will be kept until a consumer is available that can process the message. If a consumer receives a message and does not acknowledge it before closing then the message will be redelivered to another consumer. A queue can have many consumers with messages load balanced across the available consumers, but only one consumer will receive the message.
 
-# Publish/Subscribe pattern
+# Publish/Subscribe model
 
 In ActiveMQ, we use Topic to implement the model.
 
