@@ -32,7 +32,7 @@ In Publish/Subscribe System,neither the publisher nor the subscriber knows about
 # Point to Point implementation
 8) Creae two Java Projects in Eclipse, one for client and the other for server. Create a user library and add external jars from <extracted path>/lib
 
-9) Copy the files ("Sender.java" and "Client.java" from queue folder) to your two projects ("server" and "client") respectively. 
+9) Copy the files ("Sender.java" and "Client.java" from "PointToPoint" folder) to your two projects ("server" and "client") respectively. 
 
 10) Compile and run the sender.
 
@@ -45,7 +45,7 @@ In Publish/Subscribe System,neither the publisher nor the subscriber knows about
 # Publish/Subscriber implementation
 14) Creae two Java Projects in Eclipse, one for client and the other for server. Create a user library and add external jars from <extracted path>/lib
 
-15) Copy the files ("Sender.java" and "Client.java" from queue folder) to your two projects ("server" and "client") respectively. 
+15) Copy the files ("Sender.java" and "Client.java" from "PublishSubscribe" folder) to your two projects ("server" and "client") respectively. 
 
 16) Compile and run the sender.
 
